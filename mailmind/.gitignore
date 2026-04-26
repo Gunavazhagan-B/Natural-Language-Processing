@@ -1,0 +1,26 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Secrets and local data — NEVER push these
+.env
+token.json
+analyzed_emails.json
+briefing_cache.json
+chroma_db/
+
+# Frontend dependencies
+node_modules/
+dist/
+.vite/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
